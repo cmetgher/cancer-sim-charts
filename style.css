@@ -1,0 +1,210 @@
+body {
+    font-family: sans-serif;
+    background-color: #111;
+}
+
+#charts {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #ddd;
+    width: 1124px;
+    margin:0 auto;
+    padding: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+.panel {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+}
+
+.full-charts {
+    border-left: 1px #ddd solid;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.chart-wrapper.disabled {
+    display: none;
+}
+
+.chart-item {
+    padding: 0 10px;
+    border-bottom: 1px solid #ddd;
+    background-color: #fff;
+    width: 302px;
+    position: relative;
+}
+
+.chart-item:hover .hider {
+    display: block;
+}
+
+.hider:hover {
+    background: #999;
+}
+
+.hider {
+    color: black;
+    display: none;
+    border-radius: 10px 0 0 10px;
+    position: absolute;
+    left: -40px;
+    width: 40px;
+    height: 100%;
+    background: #aaa;
+    text-align: center;
+    line-height: 44px;
+    top: 0;
+}
+
+.chart-item.disabled {
+    background: #222;
+    color: #999;
+    border-bottom: 1px transparent solid;
+}
+
+.chart-item.disabled:hover {
+    background: #444;
+    color: #aaa;
+
+}
+
+.chart-item:hover {
+    background-color: #dddddd;
+    cursor: pointer;
+
+}
+
+.chart-item-label {
+    display: inline-block;
+    vertical-align: top;
+    line-height: 40px;
+    width: 200px;
+}
+
+.mini-chart {
+    display: inline-block;
+}
+
+.saves {
+    background-color: #ddd;
+}
+
+.save-button:hover {
+    background-color: #ddd;
+    cursor: pointer;
+}
+
+.save-button {
+
+}
+
+.save-load-button {
+    width: 250px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+
+}
+
+.load-button {
+    position: relative;
+    background-color: #222;
+    color: #666;
+    font-size: 10px;
+}
+
+.load-button.session {
+    color: white;
+    font-size: 12px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.load-button:hover {
+    cursor: pointer;
+    background-color: #444;
+    color: #666;
+}
+
+.load-button.loaded {
+    background-color: #fff;
+    color: #000;
+    box-shadow: 3px 3px 4px #555;
+}
+
+.load-button.loaded:hover {
+    background-color: #ddd;
+}
+
+.load-button:hover .hider {
+    display: block;
+}
+
+.stats-wrap {
+    width: 500px;
+    overflow: hidden;
+}
+
+.stat-item {
+    line-height: 24px;
+}
+
+.stat-item h3 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+}
+
+.stats-wrap {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.single-stat {
+    width: 160px;
+    float: left;
+    white-space: nowrap;
+}
+
+.single-stat .key {
+    color: #666;
+    display: inline-block;
+    width: 65px;
+    text-align: right;
+    margin-right: 5px;
+
+}
+
+.single-stat .value {
+    color: #999;
+    display: inline-block;
+}
+
+
+h2 {
+    font-size: 20px;
+    padding: 60px 0;
+    transform-origin: -8px 20px;
+    text-align: center;
+}
+
+.c3-axis-y-label {
+    font-weight: bold;
+}
+
+.c3-axis-x-label {
+    font-weight: bold;
+}
